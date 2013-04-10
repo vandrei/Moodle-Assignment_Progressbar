@@ -33,7 +33,7 @@ class block_progressbar_edit_form extends block_edit_form {
         $mform->addElement('html', get_string('editinstructions', 'block_progressbar'));
         $mform->setDefault('config_green', '50');
         $mform->setDefault('config_yellow', '80');
-        $mform->setType('config_text', PARAM_INT);
-        $mform->setType('config_text2', PARAM_INT);
+        $mform->setType('config_green', PARAM_INT);
+        $mform->setType('config_yellow', PARAM_INT);
     }
 }
