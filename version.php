@@ -24,5 +24,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2013040901;
 $plugin->requires  = 2012112900;
-$plugin->component = 'Assignment Progressbar';
+$plugin->component = 'block_progressbar';
 $plugin->cron = 300;
+$plugin->maturity = MATURITY_STABLE;
